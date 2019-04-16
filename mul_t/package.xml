@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>mul_t</name>
+  <version>0.1.0</version>
+  <description>
+
+     mul_t
+
+  </description>
+  <maintainer email="sun@gmail.com">sun</maintainer>
+  <author>sun</author>
+  <license>BSD</license>
+  <!-- <url type="bugtracker">https://github.com/stonier/qt_ros/issues</url> -->
+  <!-- <url type="repository">https://github.com/stonier/qt_ros</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>qt_build</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>libqt4-dev</build_depend>
+  <run_depend>qt_build</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>libqt4-dev</run_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <!-- <followed are added new!> -->
+
+<build_depend>opencv2</build_depend>
+<run_depend>opencv2</run_depend>
+
+<build_depend>message_generation</build_depend>
+   <run_depend>message_runtime</run_depend>
+
+<build_depend>std_msgs sensor_msgs cv_bridge image_transport</build_depend>
+
+ <run_depend>std_msgs sensor_msgs cv_bridge image_transport</run_depend>
+</package>
